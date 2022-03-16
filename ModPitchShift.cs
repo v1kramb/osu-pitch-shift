@@ -36,7 +36,7 @@ namespace osu.Game.Rulesets.Mods
             Precision = 0.01,
         };
         
-        protected ModPitchShift()
+        public ModPitchShift()
         {
             PitchChange.BindValueChanged(val =>
             {
